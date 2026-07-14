@@ -8,7 +8,7 @@ Project analisis data ritel end-to-end: mulai dari integrasi data lintas divisi,
 
 Menganalisis **1 juta transaksi penjualan ritel** sepanjang tahun 2024, mengintegrasikan data dari **5 fungsi bisnis** (Sales, Product Management, Customer/CRM, HR, Marketing) untuk menghasilkan insight lintas-divisi — termasuk validasi segmentasi customer melalui RFM Analysis, dan evaluasi efektivitas campaign marketing.
 
-**Temuan utama:** label segmentasi customer yang tersedia di data source tidak valid (47,1% customer berlabel "Churn Risk" ternyata bernilai tinggi berdasarkan RFM), dan metrik ROI campaign yang umum dipakai ternyata menyesatkan karena tidak mempertimbangkan variasi budget antar campaign.
+**Memvalidasi kualitas segmentasi pelanggan dan menemukan bahwa 47,1% pelanggan yang dikategorikan sebagai "Churn Risk" sebenarnya memiliki karakteristik pelanggan bernilai tinggi berdasarkan model RFM. Selain itu, mengungkap keterbatasan metrik ROI konvensional dalam mengevaluasi efektivitas campaign karena tidak memperhitungkan perbedaan skala investasi pada masing-masing campaign.
 
 📄 Baca lengkap: [`insight-and-recommendation.md`](./insight-and-recommendation.md)
 
